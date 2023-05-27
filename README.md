@@ -8,11 +8,10 @@ In this project proposal, we plan to explore the application of Graph Convolutio
 The proposed project will involve the collection and analysis of financial transaction data, as well as the implementation and training of a GCN model for fraud detection. The potential impact of this project is significant, as it can help to detect and prevent financial fraud, ultimately leading to increased financial security and stability.
 
 ## Problem Description
-Financial fraud is a significant challenge for businesses and organisations worldwide. The increasing complexity of fraudulent activities and the sheer volume of financial transactions make it challenging to detect fraudulent activities. The problem is com-
-pounded by the fact that traditional fraud detection methods often rely on manually constructed rules, which may not be effective in detecting sophisticated fraud schemes. 
+Financial fraud is a significant challenge for businesses and organisations worldwide. The increasing complexity of fraudulent activities and the sheer volume of financial transactions make it challenging to detect fraudulent activities. The problem is compounded by the fact that traditional fraud detection methods often rely on manually constructed rules, which may not be effective in detecting sophisticated fraud schemes. 
 
 The proposed project aims to develop an application model for financial fraud detection that uses Graph Convolutional Networks (GCN). GCN is a type of neural network that can process data in the form of graphs, which is well-suited for detecting fraudulent activities in financial networks. The model will be trained on a dataset of financial transactions to learn patterns and features of fraudulent transactions. Here, Hetero-
-geneous graph is defined as 𝐺 = (𝑉 , 𝐸, 𝑅), where (𝑣𝑖𝑉 ) represent the transaction or entity types, ((𝑣𝑖, 𝑟, 𝑣 𝑗)𝐸) represent the financial relationship between two entities, and (𝑟𝑅) define the type of relation.
+geneous graph is defined as 𝐺 = (𝑉 , 𝐸, 𝑅), where (𝑣<sub>𝑖</sub> &isin; 𝑉 ) represent the transaction or entity types, ((𝑣<sub>𝑖</sub>, 𝑟, 𝑣<sub>𝑗</sub>) &isin; 𝐸) represent the financial relationship between two entities, and (𝑟 &isin; 𝑅) define the type of relation.
 
 The data labelling logic is the defined reported chargeback on the card as fraud transaction (isFraud=1) and transactions posterior to it with either user account, email address or billing address directly linked to these attributes as fraud too. If none of the above is reported and found beyond 120 days, then it is defined as legit transaction (isFraud=0). However, in real world fraudulent activity might not be reported, for example the cardholder was unaware, or forgot to report in time and beyond the claim period, etc. In such cases, supposed fraud might be labelled as legit, but never be known. Thus, there are various scenarios in determining whether the transaction is fraud or legit. There are various enriched features which represent the count of transaction properties like addresses, email addresses associated with the account, and attributes of match check like whether the purchaser and recipient first/last name match. These kinds of enriched or custom attributes along with the timestamps columns would help in detecting more fraud patterns. Our analysis on the data has shown such patterns.
 
@@ -21,7 +20,7 @@ The project addressed challenges, including the processing of large amounts of f
 <img width="500" alt="graph_network" src="https://github.com/hyndavi1234/Financial-Fraud-Detection/assets/34919619/12931e95-ef48-42cd-92a3-4a0e750a9e96">
 
 ## Datasets
-The dataset contains the transactions that can be extracted from Kaggle, provided by Vesta Corporation, a leading payment service company whose data consists of verified transactions. This dataset has around 4 % of fraudulent transactions.
+The dataset contains the transactions that can be extracted from Kaggle, provided by Vesta Corporation<sup>[5]</sup>, a leading payment service company whose data consists of verified transactions. This dataset has around 4% of fraudulent transactions.
 
 We are given a training set split into two CSV files. The first contains 590,000 observations of 394 transactional features; the second, 144,000 observations of 41 meta-identity features.
 
