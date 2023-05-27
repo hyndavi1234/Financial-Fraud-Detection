@@ -1,4 +1,4 @@
-# Financial-Fraud-Detection
+# Financial Fraud Detection using Graph Convolution Network
 Implemented a fraud detection model utilizing Relational Graph Convolutional Networks to predict the fraudulent transactions using supervised learning techniques.
 
 In recent years, financial fraud has become a significant problem for businesses and organizations worldwide. Financial fraud refers to illegal activities that involve intentionally deceiving people or institutions for personal gain. Due to the complexity and sophistication of fraudulent activities, detecting and preventing such activities has become a major challenge for financial institutions.
