@@ -106,9 +106,11 @@ We have designed the network graph from the given transactional data and trained
 - It has been trained on the complete data consisting of 500k transactions which constitute to around 720k nodes and 19M edges.
 - The results obtained for Shallow RGCN trained with 3 layers has the following metrics: F1 score of 0.46, Accuracy of 0.97, Recall of 0.34
 
-![f1s](https://github.com/hyndavi1234/Financial-Fraud-Detection/assets/34919619/73fad460-8e4d-43b2-919f-ab4b58e4d6b8)
-![loss - s](https://github.com/hyndavi1234/Financial-Fraud-Detection/assets/34919619/aa34f68c-db44-4f2a-9fb2-41d77f48d084)
-![roc_curve-s](https://github.com/hyndavi1234/Financial-Fraud-Detection/assets/34919619/723eae04-7d90-4c14-ac3b-9e4910e69a12)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="[f1s](https://github.com/hyndavi1234/Financial-Fraud-Detection/assets/34919619/73fad460-8e4d-43b2-919f-ab4b58e4d6b8)">
+  <source media="(prefers-color-scheme: light)" srcset="[loss - s](https://github.com/hyndavi1234/Financial-Fraud-Detection/assets/34919619/aa34f68c-db44-4f2a-9fb2-41d77f48d084)">
+  <img src="[roc_curve-s](https://github.com/hyndavi1234/Financial-Fraud-Detection/assets/34919619/723eae04-7d90-4c14-ac3b-9e4910e69a12)">
+</picture>
 
 **2. Deep RGCN:**
 - It has also been trained on the complete data consisting of 500k transactions which constitute to around 720k nodes and 19M edges.
