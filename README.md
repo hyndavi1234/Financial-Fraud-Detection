@@ -162,6 +162,8 @@ In addition, we have analysed the ’Pick and Choose’ approach, which is desig
 
 [4] Adeshina, S. (2020). Detecting fraud in heterogeneous networks using Amazon SageMaker and Deep Graph Library. Retrieved from https://aws.amazon.com/blogs/machine-learning/detecting-fraud-in-heterogeneous-networks-using-amazon-sagemaker-and-deep-graph-library/.
 
+[5] IEEE-CIS fraud dataset - https://www.kaggle.com/c/ieee-fraud-detection/data
+
 
 
 
