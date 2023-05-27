@@ -29,7 +29,31 @@ The transactional features span a broad gamut. Individual columns include the tr
 
 The identity features refer broadly to digital signatures and network details collected from the transactions such as DeviceType, DeviceInfo, and IP address.
 
-<img width="350" alt="img3" src="https://github.com/hyndavi1234/Financial-Fraud-Detection/assets/34919619/5a25be05-9759-4873-b767-05c606609d8d">
+<table>
+    <thead>
+        <tr>
+            <th colspan=2>Data Statistics</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>#Nodes</td>
+            <td>105815</td>
+        </tr>
+        <tr>
+            <td>#Edges</td>
+            <td>3586258</td>
+        </tr>
+        <tr>
+            <td>#Features Shape</td>
+            <td>torch.Size([50000, 374])</td>
+        </tr>
+        <tr>
+            <td>#Labeled Test Samples</td>
+            <td>10000</td>
+        </tr>
+    </tbody>
+</table>
 
 ## Methodology
 The plan is to implement the application using Relational Graph Convolution Networks to predict the fraudulent transactions by generating unique features from the neighbourhood information to perform better predictions. After acquiring the data, prepossessing and edgelists generation using user identification columns are required. Afterwards, a multi-heterogeneous network is generated utilising the data and edgelists to predict fraudulence using Deep Learning models
